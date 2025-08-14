@@ -1049,22 +1049,6 @@ i.fa-brands.fa-whatsapp::before {
         margin-bottom: 30px;
     }
 
-    .footer_contenido {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer_columna0 {
-        text-align: center;
-        color: white;
-        font-size: 25px;
-        font-family: "Berkshire Swash", serif;
-        display: flex;
-        flex-direction: column;
-        max-width: none;
-        white-space: nowrap;
-    }
-
     /* PAGINA HIGHLIGHTS */
     
     .foto_rueda2 {
@@ -1081,6 +1065,33 @@ i.fa-brands.fa-whatsapp::before {
 
     .cartas2 {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .iniciativas2 {
+        padding-left: 0;
+        padding-right: 0;
+        padding: 50px 30px;
+    }
+
+    .iniciativas2 h2 {
+        margin-top: 0;
+    }
+
+    .menos_margen1 {
+        margin-top: 0;
+    }
+
+    .menos_margen3 {
+        margin-top: 0;
+    }
+
+    .partners h2 {
+        margin-top: 0;
+    }
+
+    .heroe h1 {
+        margin-top: 0;
     }
 
     /* PAGINA CONTACT */
@@ -1092,5 +1103,41 @@ i.fa-brands.fa-whatsapp::before {
     .info_contacto {
         margin-bottom: 0;
         padding: 10px;
+    }
+
+    .barra_lateral {
+    width: 140px; 
+    background-color: #f5efe3; 
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 15px;
+    display: none;
+}
+
+    /* FOOTER */
+
+    .footer_contenido {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer_columna0 {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: "Berkshire Swash", serif;
+        display: flex;
+        flex-direction: column;
+        max-width: none;
+        white-space: nowrap;
+    }
+
+    .footer_columna0 h2 {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
