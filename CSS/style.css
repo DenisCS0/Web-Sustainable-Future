@@ -1064,4 +1064,33 @@ i.fa-brands.fa-whatsapp::before {
         max-width: none;
         white-space: nowrap;
     }
+
+    /* PAGINA HIGHLIGHTS */
+    
+    .foto_rueda2 {
+        max-width: -webkit-fill-available;
+    }
+
+    .main2 {
+        margin-left: 0%;
+    }
+
+    .statistics {
+        padding: 0;
+    }
+
+    .cartas2 {
+        flex-direction: column;
+    }
+
+    /* PAGINA CONTACT */
+
+    .contenedor_contacto {
+        flex-direction: column;
+    }
+
+    .info_contacto {
+        margin-bottom: 0;
+        padding: 10px;
+    }
 }
