@@ -980,3 +980,88 @@ i.fa-brands.fa-whatsapp::before {
    font-size: xx-large;
 }
 
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Quitar márgenes laterales grandes */
+    .main1 {
+        width: 95%;
+        padding: 10px;
+    }
+
+    header {
+        background-color: #354F3A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+    
+    /* Ajustar cabecera */
+    .navbar ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .navbar ul li a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .intro {
+        text-align: center;
+        background: url('green-foot.png') no-repeat left;    
+        background-size: contain;
+        background-repeat: no-repeat; 
+        position: relative;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    /* Texto más compacto en la sección bienvenido */
+    .bienvenido p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Cartas en columna en lugar de fila */
+    .cartas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carta {
+        max-width: 300px;
+    }
+
+    /* Imagen y texto de .accion más pequeños */
+    .accion img {
+        max-width: 150px;
+    }
+
+    .intro_contenido {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer_contenido {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_columna0 {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: "Berkshire Swash", serif;
+        display: flex;
+        flex-direction: column;
+        max-width: none;
+        white-space: nowrap;
+    }
+}
