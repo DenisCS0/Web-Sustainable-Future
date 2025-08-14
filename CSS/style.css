@@ -418,7 +418,7 @@ header {
 
 .menos_margen1 {
     font-size: 1.5rem;
-    margin-top: 10px;
+    margin-top: 0px;
      margin-bottom: 10px;
 }
 
@@ -431,6 +431,7 @@ header {
 .menos_margen3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
 /* SECCION GOALS */
